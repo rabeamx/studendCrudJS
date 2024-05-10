@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+} 
+
+input:focus {
+    outline: none;
+}
+
+body {
+    margin: 100px;
+}
+
+.students img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+
+.team .team-members {
+    width: 200px;
+    padding: 20px;
+}
+
+.students table tr {
+    vertical-align: middle;
+}
+.student-data img {
+    width: 100px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.student-data {
+    text-align: center;
+}
